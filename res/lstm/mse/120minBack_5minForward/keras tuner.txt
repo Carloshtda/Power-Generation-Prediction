@@ -1,0 +1,19 @@
+Best:
+Hyperparameter    |Value             |Best Value So Far
+num_layers        |2                 |1
+units_end         |64                |64
+units_0           |128               |32
+
+Trial 6 Complete [12h 19m 25s]
+val_mean_absolute_error: 101.913
+
+Trials entre 5-12h
+Total elapsed time: 23h 13m 52s
+
+2nd:
+Hyperparameter    |Value             |Best Value So Far                        
+num_layers        |1                 |0
+units_end         |64                |32
+
+
+val_mean_absolute_error: 102.095

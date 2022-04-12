@@ -1,0 +1,5 @@
+					MAE
+Sem hora como entrada + Daytime=True:  52.043
+Sem hora como entrada + Daytime=False: 25.730
+Com hora como entrada + Daytime=False: 25.985
+Com hora como entrada + Daytime=True: 52.269

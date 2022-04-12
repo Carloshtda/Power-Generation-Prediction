@@ -1,0 +1,74 @@
+Results summary
+Results in .\mlpP_param
+Showing 10 best trials
+Objective(name='val_mean_absolute_error', direction='min')
+Trial summary
+Hyperparameters:
+num_layers: 3
+units_0: 192
+learning_rate: 0.001
+units_1: 192
+units_2: 224
+units_3: 192
+units_4: 224
+units_5: 128
+units_6: 192
+units_7: 64
+units_8: 64
+units_9: 128
+Score: 105.35115305582683
+Trial summary
+Hyperparameters:
+num_layers: 5
+units_0: 224
+learning_rate: 0.0001
+units_1: 32
+units_2: 32
+units_3: 32
+units_4: 32
+Score: 105.63131968180339
+Trial summary
+Hyperparameters:
+num_layers: 7
+units_0: 96
+learning_rate: 0.0001
+units_1: 96
+units_2: 96
+units_3: 64
+units_4: 192
+units_5: 32
+units_6: 64
+units_7: 224
+units_8: 64
+units_9: 96
+Score: 105.98241170247395
+Trial summary
+Hyperparameters:
+num_layers: 10
+units_0: 96
+learning_rate: 0.01
+units_1: 224
+units_2: 224
+units_3: 96
+units_4: 96
+units_5: 32
+units_6: 32
+units_7: 32
+units_8: 32
+units_9: 32
+Score: 111.69799296061198
+Trial summary
+Hyperparameters:
+num_layers: 8
+units_0: 256
+learning_rate: 0.01
+units_1: 32
+units_2: 128
+units_3: 160
+units_4: 64
+units_5: 96
+units_6: 64
+units_7: 96
+units_8: 128
+units_9: 32
+Score: 736.8904698689779

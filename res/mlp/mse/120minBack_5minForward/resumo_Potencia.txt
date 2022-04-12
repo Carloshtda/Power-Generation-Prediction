@@ -1,0 +1,13 @@
+							MAE	|MAE_Day	|RMS	|RMS_DAY	|STDDEV	|STDDEV_Day		 
+Sem hora como entrada + Daytime=True:  			237.152	|		|	|		|	|
+Sem hora como entrada + Daytime=False: 			118.440	|		|	|		|	|
+Com hora como entrada + Daytime=False: 			115.799	|		|	|		|	|
+Com hora como entrada + Daytime=False + Keras Tuner: 	107.506	|231.798	|300.372|442.256	|299.975|441.006
+Sem hora como entrada + Daytime=False + Keras Tuner: 	110.534 |238.316 	|307.345|452.480	|307.220|452.102
+Sem hora como entrada + Daytime=True + Keras Tuner: 	218.721	|		|	|		|	|
+Com hora como entrada + Daytime=True + Keras Tuner:(=~)206.654 
+						
+Com hora como entrada + Radiancia + Daytime=False: GERAR
+RNN (3~4 dias atrás para 5 minutos previstos)
+Plotar Boxplot e histograma
+Mediana

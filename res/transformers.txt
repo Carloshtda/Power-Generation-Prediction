@@ -1,0 +1,23 @@
+mae: 163.972, , rmse: 372.677, stddev: 369.463, 
+val_mae: 115.710, val_rmse: 168.729, val_stddev: 162.940
+mae_test: 112.554, standard_deviation_error_test: 148.695,  root_mean_square_error_test: 154.810
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

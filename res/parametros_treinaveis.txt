@@ -1,0 +1,9 @@
+MLP
+Total params: 50,021
+
+RNN
+Trainable params: 164,837
+
+LSTM
+Total params: 116,293
+
