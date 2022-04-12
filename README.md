@@ -81,3 +81,5 @@ Prediction is *mean* of the power generated at the same time of the previous 10 
 
 * Based on: https://github.com/nklingen/Transformer-Time-Series-Forecasting
 
+## Models
+Some of the models are available at this [link](https://drive.google.com/drive/folders/16MXb8erR4vgyXocNslP61oJfIO23Sfvc?usp=sharing).
