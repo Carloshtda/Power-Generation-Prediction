@@ -1,7 +1,7 @@
+#%%
 from utils import *
 from tensorflow import keras
-from tensorflow.keras import layers
-from kerastuner.tuners import RandomSearch
+import keras_tuner as kt
 
 #%%
 def build_model(hp):
@@ -19,8 +19,8 @@ def build_model(hp):
         loss='mean_absolute_error',
         metrics=['mean_absolute_error'])
     return model
-tuner = RandomSearch(build_model, objective='val_mean_absolute_error', max_trials=5, executions_per_trial=3,
-                     directory='.',project_name='mlpP_param')
+tuner = kt.RandomSearch(build_model, objective='val_mean_absolute_error', max_trials=5, executions_per_trial=3,
+                     directory='./tuning/',project_name='mlpP_param')
 #%%
 tuner.search_space_summary()
 #%%

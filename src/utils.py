@@ -419,6 +419,23 @@ def generate_train_test_valid(folder, input_labels, output_labels, n_steps_in, n
     pd.DataFrame(inputData).to_csv((r'./../folds/trainingInputData.csv'), index = False)
     pd.DataFrame(outputData).to_csv((r'./../folds/trainingOutputData.csv'), index = False)
     
+    #Splitting the training data in taining and validation folds
+    kf = KFold(n_splits=n_folds)
+    fold = 1
+    for training_index, test_index in kf.split(inputData, outputData):
+       training_input_fold = inputData[training_index[0]:training_index[len(training_index)-1]]
+       pd.DataFrame(training_input_fold).to_csv((r'./../folds/trainingInputFold['+str(fold)+'].csv'), index = False)
+       
+       training_output_fold = outputData[training_index[0]:training_index[len(training_index)-1]]
+       pd.DataFrame(training_output_fold).to_csv((r'./../folds/trainingOutputFold['+str(fold)+'].csv'), index = False)
+      
+       test_input_fold = inputData[test_index[0]:test_index[len(test_index)-1]]
+       pd.DataFrame(test_input_fold).to_csv((r'./../folds/validationInputFold['+str(fold)+'].csv'), index = False)
+       
+       test_output_fold = outputData[test_index[0]:test_index[len(test_index)-1]]
+       pd.DataFrame(test_output_fold).to_csv((r'./../folds/validationOutputFold['+str(fold)+'].csv'), index = False)
+       
+       fold = fold + 1
 #%%
 #Evaluation functions
 def mae_multi(y_true, y_pred):
