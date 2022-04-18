@@ -71,7 +71,7 @@ Prediction is *mean* of the power generated at the same time of the previous 10 
 | Validation | 113.902 W | 241.901 W | 241.726 W |
 | Test | 106.809 W | 299.220 W | 299.047 W |]
 
-### Transformer-decoder
+### Transformer
 
 |  | MAE | RMSE | STD |
 | --------------- | --------------- | --------------- | --------------- |
@@ -79,7 +79,7 @@ Prediction is *mean* of the power generated at the same time of the previous 10 
 | Validation | 115.710 W | 168.729 W | 162.940 W |
 | Test | 112.554 W | 148.695 W | 154.810 W |]
 
-* Based on: https://github.com/nklingen/Transformer-Time-Series-Forecasting
+* Based on: https://keras.io/examples/timeseries/timeseries_transformer_classification/
 
 ## Models
 Some of the models are available at this [link](https://drive.google.com/drive/folders/16MXb8erR4vgyXocNslP61oJfIO23Sfvc?usp=sharing).
