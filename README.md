@@ -21,7 +21,7 @@ Prediction is *mean* of the power generated at the same time of the previous 10 
 
 | MAE | RMSE | STD |
 | --------------- | --------------- | --------------- |
-| 126.586 W | 298.476 W | 298.474 W |]
+| 136.586 W | 298.476 W | 298.474 W |]
 
 ### Single Hidden Layer MLP
 
